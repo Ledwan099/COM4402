@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="testscore"/>
+        <attribute name="authors" value="LA7CRT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-08 02:15:36 PM"/>
+        <attribute name="created" value="TEE3Q1JUO0FNVEQyMDQtMTk7MjAyNS0xMi0wODswMTo1MTozNyBQTTsyMzA1"/>
+        <attribute name="edited" value="TEE3Q1JUO0FNVEQyMDQtMTk7MjAyNS0xMi0wODswMjoxNTozNiBQTTsxOzI0MTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Score" type="Integer" array="False" size=""/>
+            <output expression="&quot;Please enter your score&quot;" newline="True"/>
+            <input variable="score"/>
+            <if expression="score &gt;=40">
+                <then>
+                    <output expression="&quot;You have Passed with a score of &quot; &amp;score" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;You have failed with a score of &quot; &amp;score" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

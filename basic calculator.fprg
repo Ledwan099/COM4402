@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="basic calculator"/>
+        <attribute name="authors" value="LA7CRT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-08 03:05:42 PM"/>
+        <attribute name="created" value="TEE3Q1JUO0FNVEQyMDQtMTk7MjAyNS0xMi0wODswMjoxNjoxOCBQTTsyMzA2"/>
+        <attribute name="edited" value="TEE3Q1JUO0FNVEQyMDQtMTk7MjAyNS0xMi0wODswMzowNTo0MiBQTTsxOzI0MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="Real" array="False" size=""/>
+            <declare name="op" type="String" array="False" size=""/>
+            <declare name="result" type="Real" array="False" size=""/>
+            <output expression="&quot;Choose an operation (+,-,*,/):&quot;" newline="True"/>
+            <input variable="op"/>
+            <output expression="&quot;Enter your first number&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Enter your second number&quot;" newline="True"/>
+            <input variable="num2"/>
+            <if expression="op = &quot;+&quot;">
+                <then>
+                    <assign variable="result" expression="num1+num2"/>
+                </then>
+                <else>
+                    <if expression="op = &quot;-&quot;">
+                        <then>
+                            <assign variable="result" expression="num1-num2"/>
+                        </then>
+                        <else>
+                            <if expression="op = &quot;*&quot;">
+                                <then>
+                                    <assign variable="result" expression="num1*num2"/>
+                                </then>
+                                <else>
+                                    <if expression="op = &quot;/&quot;">
+                                        <then>
+                                            <assign variable="result" expression="num1/num2"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

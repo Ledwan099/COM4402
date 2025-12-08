@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Flowcharts practice"/>
+        <attribute name="authors" value="LA7CRT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-08 01:36:21 PM"/>
+        <attribute name="created" value="TEE3Q1JUO0FNVEQyMDQtMTk7MjAyNS0xMi0wODswMToxNDo0NiBQTTsyMzA0"/>
+        <attribute name="edited" value="TEE3Q1JUO0FNVEQyMDQtMTk7MjAyNS0xMi0wODswMTozNjoyMSBQTTsxOzI0MDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Name" type="String" array="False" size=""/>
+            <output expression="&quot;Please enter your name&quot;" newline="True"/>
+            <input variable="Name"/>
+            <output expression="&quot;Hello, &quot; &amp;Name" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
