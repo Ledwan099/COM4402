@@ -1,0 +1,36 @@
+start
+Turn on kettle plug
+Get 250ml water in cup from sink
+pour the cup of water into kettle
+start kettle
+Grab teabag and milk
+put teabag in mug
+pour milk into mug 200ml
+pour kettle after its finished into same mug
+remove teabag
+mix with spoon after 30 seconds
+wait 15 minutes
+drink tea
+end
+
+INPUT numbers A, B
+    sum = A + B
+    avg = sum / 2
+OUTPUT sum, avg
+
+BEGIN
+    INPUT score
+    IF score >= 70
+        OUTPUT "Distinction achieved"
+    ELIF score >=40 AND score <=69
+        OUTPUT "You have passed the test"
+    ELSE
+        OUTPUT "You have failed the test"
+    ENDIF
+
+BEGIN
+    Input choice
+    IF Choice == 1 OUTPUT "add item"
+        INPUT item
+        OUTPUT "item"
+    ELIF choice == 2 OUTPUT
