@@ -34,3 +34,14 @@ BEGIN
         INPUT item
         OUTPUT "item"
     ELIF choice == 2 OUTPUT
+
+BEGIN
+    Input score
+    IF score >=80
+        OUTPUT "Grade A"
+    ELIF score >=70 AND score <=79
+        OUTPUT "Grade B"
+    ELIF score >=60 AND score <=69
+        OUTPUT "Grade C"
+
+
